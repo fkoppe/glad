@@ -9,3 +9,6 @@ add_library(glad
 )
 
 target_include_directories(glad PRIVATE include/)
+
+install(TARGETS glad DESTINATION lib)
+install(FILES include/glad/glad.h DESTINATION include/glad/)
