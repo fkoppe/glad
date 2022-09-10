@@ -1,4 +1,5 @@
 cmake_minimum_required (VERSION 3.8)
+add_compile_options(-fPIC)
 
 set(HEADER_FILES include/glad/glad.h include/KHR/khrplatform.h)
 
