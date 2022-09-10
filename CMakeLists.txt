@@ -1,5 +1,6 @@
 cmake_minimum_required (VERSION 3.8)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC")
+message("${CMAKE_C_FLAGS}")
 
 set(HEADER_FILES include/glad/glad.h include/KHR/khrplatform.h)
 
